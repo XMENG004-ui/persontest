@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="dark" lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latent Dark Index · Preview</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#ffb2b8',
+              'primary-dark': '#e74461',
+              tertiary: '#d9b9ff',
+              surface: '#111317',
+              'surface-high': '#1e2024',
+              'surface-higher': '#24262a',
+              outline: '#3a3c40',
+              text: '#e2e2e8',
+              'text-muted': '#a3a3ab'
+            },
+            fontFamily: {
+              headline: ['Newsreader', 'serif'],
+              body: ['Manrope', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Manrope', sans-serif;
+        background:#111317;
+        color:#e2e2e8;
+        -webkit-font-smoothing: antialiased;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .spark {
+        background: radial-gradient(circle at 30% 20%, rgba(255,178,184,0.18), transparent 60%);
+      }
+    </style>
+  </head>
+  <body class="bg-surface text-text">
+    <header class="sticky top-0 z-40 backdrop-blur bg-surface/80 border-b border-outline/20">
+      <div class="max-w-5xl mx-auto px-5 h-16 flex items-center justify-between">
+        <span class="font-headline italic tracking-[0.4em] text-primary">LATENT DARK INDEX</span>
+        <span class="text-xs uppercase tracking-[0.4em] text-text-muted">ENTERTAINMENT USE ONLY</span>
+      </div>
+    </header>
+
+    <main class="pb-24">
+      <!-- Hero -->
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20 spark"></div>
+        <div class="max-w-5xl mx-auto px-5 py-16 grid md:grid-cols-2 gap-10 items-end">
+          <div>
+            <p class="text-xs tracking-[0.3em] uppercase text-primary mb-4">Volume 01 · Psychological Deviance</p>
+            <h1 class="font-headline text-4xl md:text-5xl leading-tight mb-6">
+              测一测你的<br />
+              <span class="italic text-primary-dark">潜在黑暗人格</span>指数
+            </h1>
+            <p class="text-text-muted leading-relaxed mb-8">
+              36 · 96 道深度题库，3-12 分钟出报告。匿名作答，生成可保存的长图结果，仅供娱乐与自我探索参考。
+            </p>
+            <div class="flex flex-wrap gap-3 text-xs uppercase tracking-[0.2em] text-text">
+              <span class="px-3 py-2 bg-surface-high rounded-full">匿名体验</span>
+              <span class="px-3 py-2 bg-surface-high rounded-full">即时报告</span>
+              <span class="px-3 py-2 bg-surface-high rounded-full">不构成诊断</span>
+            </div>
+            <button class="mt-8 px-6 py-3 bg-primary text-black font-semibold tracking-[0.2em] rounded hover:bg-primary-dark transition">开始探索我的暗面</button>
+          </div>
+          <div class="bg-surface-high border border-outline/40 rounded-xl p-6 flex flex-col gap-6">
+            <div>
+              <p class="text-xs tracking-[0.3em] text-text-muted uppercase">Next Step</p>
+              <h3 class="text-2xl font-headline mt-2">选择测试深度</h3>
+            </div>
+            <div class="space-y-4">
+              <div class="p-4 rounded border border-outline/30">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="text-lg font-headline">基础版</p>
+                    <p class="text-text-muted text-sm">30-40 题 · 3-5 分钟</p>
+                  </div>
+                  <span class="text-primary font-semibold">¥1.99</span>
+                </div>
+                <p class="text-sm text-text-muted mt-3">适合快速了解倾向，包含六维指数 + 建议。</p>
+              </div>
+              <div class="p-4 rounded border border-primary bg-surface-higher">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="text-lg font-headline">深度版</p>
+                    <p class="text-text-muted text-sm">90-110 题 · 8-12 分钟</p>
+                  </div>
+                  <span class="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">推荐</span>
+                </div>
+                <p class="text-sm text-text-muted mt-3">包含全部维度、人格原型、亮点/风险与复购建议。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Question Sample -->
+      <section class="max-w-3xl mx-auto px-5 py-16">
+        <p class="text-xs tracking-[0.3em] uppercase text-primary mb-6">Question Preview</p>
+        <div class="bg-surface-high border border-outline/30 rounded-2xl p-8">
+          <div class="flex items-center justify-between text-sm text-text-muted mb-6">
+            <span>第 5 / 40 题</span>
+            <span>剩余约 2 分钟</span>
+          </div>
+          <h2 class="text-2xl font-headline leading-snug mb-8">“当我觉得某人可能对我造成威胁时，我会先发制人。”</h2>
+          <div class="space-y-3">
+            <button class="w-full flex items-center justify-between p-4 rounded border border-outline/30 hover:border-primary transition">
+              <span>非常不同意</span>
+              <span class="material-symbols-outlined">radio_button_unchecked</span>
+            </button>
+            <button class="w-full flex items-center justify-between p-4 rounded border border-outline/30 hover:border-primary transition">
+              <span>比较不同意</span>
+              <span class="material-symbols-outlined">radio_button_unchecked</span>
+            </button>
+            <button class="w-full flex items-center justify-between p-4 rounded border border-outline/30 hover:border-primary transition">
+              <span>不确定</span>
+              <span class="material-symbols-outlined">radio_button_unchecked</span>
+            </button>
+            <button class="w-full flex items-center justify-between p-4 rounded border border-outline/30 hover:border-primary transition">
+              <span>比较同意</span>
+              <span class="material-symbols-outlined">radio_button_unchecked</span>
+            </button>
+            <button class="w-full flex items-center justify-between p-4 rounded border border-primary bg-primary/5">
+              <span class="text-primary font-semibold">非常同意</span>
+              <span class="material-symbols-outlined text-primary">radio_button_checked</span>
+            </button>
+          </div>
+          <div class="flex items-center justify-between mt-8 text-xs text-text-muted uppercase tracking-[0.3em]">
+            <span>Back</span>
+            <button class="px-4 py-2 bg-primary text-black rounded tracking-[0.2em]">Next</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Result Sample -->
+      <section class="bg-surface-high border-t border-outline/30">
+        <div class="max-w-5xl mx-auto px-5 py-16">
+          <p class="text-xs tracking-[0.3em] uppercase text-primary mb-4">Result Preview</p>
+          <div class="grid lg:grid-cols-2 gap-8">
+            <div class="space-y-6">
+              <div class="p-6 rounded-xl border border-outline/30">
+                <p class="text-sm text-text-muted">潜在黑暗人格指数</p>
+                <div class="flex items-end gap-4 mt-4">
+                  <span class="text-6xl font-headline">72</span>
+                  <div>
+                    <p class="text-sm uppercase tracking-[0.3em] text-primary">High</p>
+                    <p class="text-text-muted text-xs">高防御型控制者</p>
+                  </div>
+                </div>
+                <p class="text-sm text-text-muted mt-4">基于 96 道题 · Latent Dark Index v1.0</p>
+              </div>
+              <div class="p-6 rounded-xl border border-outline/30">
+                <p class="text-xs tracking-[0.3em] text-text-muted uppercase mb-4">Archetype</p>
+                <h3 class="text-xl font-headline mb-2">高防御型控制者</h3>
+                <p class="text-text-muted text-sm">你擅长掌控关键变量，用严密逻辑把不可控风险隔离在外。</p>
+                <p class="text-primary text-sm mt-4">成长建议：在低风险场景练习授予空间，让自己从高压模式抽离。</p>
+              </div>
+            </div>
+            <div class="p-6 rounded-xl border border-outline/30">
+              <p class="text-xs tracking-[0.3em] text-text-muted uppercase mb-4">六维指数雷达</p>
+              <img src="https://i.ibb.co/9bV1mWz/radar-demo.png" alt="radar" class="w-full rounded bg-black/20 border border-outline/30" />
+              <div class="grid grid-cols-2 gap-4 mt-6 text-sm">
+                <div>
+                  <p class="text-text-muted uppercase tracking-[0.3em] text-xs">控制倾向</p>
+                  <p class="text-2xl">82</p>
+                </div>
+                <div>
+                  <p class="text-text-muted uppercase tracking-[0.3em] text-xs">情感操控</p>
+                  <p class="text-2xl">76</p>
+                </div>
+                <div>
+                  <p class="text-text-muted uppercase tracking-[0.3em] text-xs">利益优先</p>
+                  <p class="text-2xl">68</p>
+                </div>
+                <div>
+                  <p class="text-text-muted uppercase tracking-[0.3em] text-xs">冷感防御</p>
+                  <p class="text-2xl">71</p>
+                </div>
+                <div>
+                  <p class="text-text-muted uppercase tracking-[0.3em] text-xs">关系占优</p>
+                  <p class="text-2xl">63</p>
+                </div>
+                <div>
+                  <p class="text-text-muted uppercase tracking-[0.3em] text-xs">边界攻击</p>
+                  <p class="text-2xl">72</p>
+                </div>
+              </div>
+              <div class="mt-8 space-y-2 text-sm text-text-muted">
+                <p>亮点：混乱场景中的天然指挥官 · 懂得用理性切割情绪干扰</p>
+                <p>风险：频繁试探会耗损关系能量 · 高压策略可能压缩信任空间</p>
+              </div>
+              <div class="mt-8 flex gap-3">
+                <button class="flex-1 px-4 py-3 bg-primary text-black rounded tracking-[0.2em]">保存报告</button>
+                <button class="flex-1 px-4 py-3 border border-outline/40 rounded tracking-[0.2em]">查看更多测试</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center text-xs text-text-muted py-6 border-t border-outline/20">
+      © 2026 LATENT DARK INDEX · 娱乐体验产品 · 不构成专业心理诊断或医疗建议
+    </footer>
+  </body>
+</html>

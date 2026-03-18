@@ -1,0 +1,62 @@
+{
+  "version": "base",
+  "questionCount": 36,
+  "scale": {
+    "veryDisagree": 1,
+    "disagree": 2,
+    "neutral": 3,
+    "agree": 4,
+    "veryAgree": 5
+  },
+  "dimensions": {
+    "control": "控制倾向",
+    "emotional": "情感操控",
+    "benefit": "利益优先",
+    "defense": "冷感防御",
+    "possessive": "关系占优",
+    "aggression": "边界攻击"
+  },
+  "questions": [
+    {"id": "C01", "dimension": "control", "reverse": false, "text": "我习惯在事情开始前就规划好每一步。"},
+    {"id": "C02", "dimension": "control", "reverse": false, "text": "当别人临时改变计划时，我会立刻介入重新安排。"},
+    {"id": "C03", "dimension": "control", "reverse": true, "text": "在团队里我更喜欢随大流，而不是带头做决定。"},
+    {"id": "C04", "dimension": "control", "reverse": false, "text": "如果情况失控，我会本能地寻找可控变量来收回局面。"},
+    {"id": "C05", "dimension": "control", "reverse": true, "text": "只要别人处理得不错，我不一定要参与管理。"},
+    {"id": "C06", "dimension": "control", "reverse": false, "text": "我会为最糟的情况准备备用方案。"},
+
+    {"id": "E01", "dimension": "emotional", "reverse": false, "text": "我知道怎样用语气或沉默让别人顺着我。"},
+    {"id": "E02", "dimension": "emotional", "reverse": false, "text": "我习惯观察对方的情绪再决定怎么说话。"},
+    {"id": "E03", "dimension": "emotional", "reverse": true, "text": "在关系里我从不考虑利用信息优势。"},
+    {"id": "E04", "dimension": "emotional", "reverse": false, "text": "我会根据对方的心理弱点来安排沟通节奏。"},
+    {"id": "E05", "dimension": "emotional", "reverse": false, "text": "我愿意表现得更脆弱来换取我想要的回应。"},
+    {"id": "E06", "dimension": "emotional", "reverse": true, "text": "我宁愿诚实表达，也不会用情绪去影响别人。"},
+
+    {"id": "B01", "dimension": "benefit", "reverse": false, "text": "做决策时我会先算\"值不值\"。"},
+    {"id": "B02", "dimension": "benefit", "reverse": false, "text": "如果一件事与收益无关，我很难投入。"},
+    {"id": "B03", "dimension": "benefit", "reverse": true, "text": "即使没有明确好处，我也会凭感觉去做。"},
+    {"id": "B04", "dimension": "benefit", "reverse": false, "text": "我擅长从对话里迅速判断对我有没有价值。"},
+    {"id": "B05", "dimension": "benefit", "reverse": false, "text": "我常常把人际关系拆成\"成本\"和\"回报\"。"},
+    {"id": "B06", "dimension": "benefit", "reverse": true, "text": "我不喜欢把人或事情量化成利益。"},
+
+    {"id": "D01", "dimension": "defense", "reverse": false, "text": "我懂得在冲突中抽离情绪，先保全自己。"},
+    {"id": "D02", "dimension": "defense", "reverse": false, "text": "当别人情绪失控时，我更倾向保持冷静旁观。"},
+    {"id": "D03", "dimension": "defense", "reverse": true, "text": "我通常会先安抚别人的情绪而不是保持距离。"},
+    {"id": "D04", "dimension": "defense", "reverse": false, "text": "我可以很快把私人情绪\"关机\"切回理性模式。"},
+    {"id": "D05", "dimension": "defense", "reverse": false, "text": "当我察觉风险时，会立即降低情感投入。"},
+    {"id": "D06", "dimension": "defense", "reverse": true, "text": "我很难把感受和决策分开。"},
+
+    {"id": "P01", "dimension": "possessive", "reverse": false, "text": "一旦认定一段关系，我会建立自己的规则。"},
+    {"id": "P02", "dimension": "possessive", "reverse": false, "text": "我会留意对方是否把注意力给了别人。"},
+    {"id": "P03", "dimension": "possessive", "reverse": true, "text": "我觉得伴侣或朋友不需要跟我报备任何细节。"},
+    {"id": "P04", "dimension": "possessive", "reverse": false, "text": "当我感觉到被忽视，会马上制造存在感。"},
+    {"id": "P05", "dimension": "possessive", "reverse": false, "text": "我喜欢知道对方的动向以确保安全感。"},
+    {"id": "P06", "dimension": "possessive", "reverse": true, "text": "我对于共享关系资源非常宽松。"},
+
+    {"id": "A01", "dimension": "aggression", "reverse": false, "text": "如果有人踩线，我会毫不犹豫地反击。"},
+    {"id": "A02", "dimension": "aggression", "reverse": false, "text": "我会主动测试别人到底能接受我到什么程度。"},
+    {"id": "A03", "dimension": "aggression", "reverse": true, "text": "我通常先忍耐很多次才会表达不满。"},
+    {"id": "A04", "dimension": "aggression", "reverse": false, "text": "我不介意用\"强势\"提醒别人别越界。"},
+    {"id": "A05", "dimension": "aggression", "reverse": false, "text": "我会针对性地设置规则来限制对方的行为。"},
+    {"id": "A06", "dimension": "aggression", "reverse": true, "text": "即使别人冒犯我，我也倾向于息事宁人。"}
+  ]
+}

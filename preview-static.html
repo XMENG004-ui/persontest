@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latent Dark Index – H5 预览稿</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        font-family: 'Manrope', sans-serif;
+        color: #e2e2e8;
+        background: #111317;
+      }
+      body {
+        background: #111317;
+        min-height: 100vh;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      @media (min-width: 768px) {
+        .phone-shell {
+          max-width: 420px;
+          border-radius: 32px;
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+        }
+      }
+    </style>
+  </head>
+  <body class="text-[#e2e2e8]">
+    <header class="sticky top-0 z-50 backdrop-blur border-b border-white/5 bg-black/30">
+      <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between text-xs tracking-[0.45em] uppercase">
+        <span class="text-[#ffb2b8] font-headline">LATENT DARK INDEX</span>
+        <span class="text-white/50">娱乐体验 · 不构成诊断</span>
+      </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-16">
+      <!-- Hero -->
+      <section class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="text-xs tracking-[0.35em] text-[#ffb2b8] mb-4">VOLUME 01 / PSYCHOLOGICAL DEVIANCE</p>
+          <h1 class="font-headline text-4xl lg:text-5xl leading-tight mb-6">
+            测一测你的<br />
+            <span class="italic text-[#ffb2b8]">潜在黑暗人格</span>指数
+          </h1>
+          <p class="text-white/60 leading-relaxed mb-8">
+            36 / 96 道题。3–12 分钟。匿名作答，生成可保存的报告，仅供娱乐与自我探索。购买后发送 H5 链接，按流程答题即可。
+          </p>
+          <div class="flex flex-wrap gap-3 text-xs tracking-[0.3em] uppercase">
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/5">匿名体验</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/5">即时报告</span>
+            <span class="px-4 py-2 rounded-full bg-white/5 border border-white/5">不构成诊断</span>
+          </div>
+        </div>
+        <div class="bg-[#1a1c20] phone-shell p-6 space-y-4">
+          <p class="text-xs tracking-[0.35em] text-white/50">STEP 1 · 选择版本</p>
+          <label class="block rounded-2xl border border-white/10 p-5 space-y-2">
+            <div class="flex items-start justify-between">
+              <div>
+                <p class="font-headline text-xl">基础版</p>
+                <p class="text-xs text-white/50">30–40 题 · 3–5 分钟</p>
+              </div>
+              <span class="text-[#ffb2b8] font-semibold">¥1.99</span>
+            </div>
+            <p class="text-sm text-white/60">六维指数 + 建议，适合快速探索。</p>
+          </label>
+          <label class="block rounded-2xl border border-[#ffb2b8]/40 bg-[#ffb2b8]/5 p-5 space-y-2">
+            <div class="flex items-start justify-between">
+              <div>
+                <p class="font-headline text-xl">深度版</p>
+                <p class="text-xs text-white/50">90–110 题 · 8–12 分钟</p>
+              </div>
+              <span class="text-xs uppercase tracking-[0.35em] text-[#ffb2b8]">推荐</span>
+            </div>
+            <p class="text-sm text-white/60">包含原型匹配、亮点 / 风险、复购建议。</p>
+          </label>
+        </div>
+      </section>
+
+      <!-- Checklist -->
+      <section class="grid lg:grid-cols-2 gap-10 items-center">
+        <div class="space-y-4">
+          <p class="text-xs tracking-[0.35em] text-[#ffb2b8]">STEP 2 · 开始前</p>
+          <h2 class="font-headline text-3xl">作答须知</h2>
+          <div class="space-y-3 text-sm text-white/70">
+            <p>· 请保持 3–12 分钟安静环境，避免外界打断。</p>
+            <p>· 选择最贴近你“常态”的选项，不需要迎合“标准答案”。</p>
+            <p>· 测试仅供娱乐与自我探索，不构成专业心理诊断或治疗建议。</p>
+          </div>
+        </div>
+        <div class="bg-[#1a1c20] phone-shell p-6 space-y-4">
+          <p class="text-xs tracking-[0.35em] text-white/50">确认提示</p>
+          <div class="space-y-3 text-sm text-white/70">
+            <label class="flex items-center gap-3">
+              <input type="checkbox" checked class="rounded border-white/20 bg-transparent" />
+              我已了解本测评仅供娱乐与自我探索参考。
+            </label>
+            <label class="flex items-center gap-3">
+              <input type="checkbox" checked class="rounded border-white/20 bg-transparent" />
+              我会在安静环境内一次性完成答题。
+            </label>
+          </div>
+          <button class="w-full h-12 rounded-xl bg-gradient-to-r from-[#ffb2b8] to-[#e74461] text-black tracking-[0.3em] text-xs uppercase">开始答题</button>
+        </div>
+      </section>
+
+      <!-- Question Sample -->
+      <section class="grid lg:grid-cols-2 gap-10 items-center">
+        <div class="bg-[#1a1c20] phone-shell p-6 space-y-5">
+          <div class="flex items-center justify-between text-xs text-white/50">
+            <span>第 12 / 40 题</span>
+            <span>剩余约 2 分钟</span>
+          </div>
+          <div class="h-1 bg-white/10 rounded-full">
+            <div class="h-1 bg-[#ffb2b8] rounded-full" style="width: 30%"></div>
+          </div>
+          <p class="font-headline text-2xl leading-snug">
+            “当我觉得某人可能对我造成威胁时，我会先发制人。”
+          </p>
+          <div class="space-y-3 text-sm">
+            <button class="w-full text-left px-4 py-3 rounded-lg border border-white/10 hover:border-[#ffb2b8] transition">非常不同意</button>
+            <button class="w-full text-left px-4 py-3 rounded-lg border border-white/10 hover:border-[#ffb2b8] transition">比较不同意</button>
+            <button class="w-full text-left px-4 py-3 rounded-lg border border-white/10 hover:border-[#ffb2b8] transition">不确定</button>
+            <button class="w-full text-left px-4 py-3 rounded-lg border border-white/10 hover:border-[#ffb2b8] transition">比较同意</button>
+            <button class="w-full text-left px-4 py-3 rounded-lg border border-[#ffb2b8] bg-[#ffb2b8]/10 text-[#ffb2b8]">非常同意</button>
+          </div>
+        </div>
+        <div>
+          <p class="text-xs tracking-[0.35em] text-[#ffb2b8]">STEP 3 · 作答体验</p>
+          <h2 class="font-headline text-3xl mb-4">移动端优先的问卷体验</h2>
+          <ul class="space-y-3 text-sm text-white/70">
+            <li>· 单题全屏，前进 / 返回逻辑明确，离开可继续。</li>
+            <li>· 进度条 + 剩余时间提示，降低中途放弃率。</li>
+            <li>· 5 级李克特选项，兼容左右滑动 / 点按操作。</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Result Sample -->
+      <section class="bg-[#1a1c20] phone-shell p-6 space-y-6">
+        <p class="text-xs tracking-[0.35em] text-[#ffb2b8] uppercase">STEP 4 · 结果页</p>
+        <div class="rounded-2xl border border-white/10 p-5">
+          <p class="text-xs text-white/50">潜在黑暗人格指数</p>
+          <div class="flex items-end gap-4 mt-4">
+            <span class="text-6xl font-headline">72</span>
+            <div>
+              <p class="text-xs tracking-[0.3em] text-[#ffb2b8] uppercase">策略操盘者</p>
+              <p class="text-xs text-white/40">高防御型控制者</p>
+            </div>
+          </div>
+          <p class="text-xs text-white/40 mt-4">基于 96 道题 · Latent Dark Index v1.0 · 仅供娱乐</p>
+        </div>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+          <div class="rounded-xl border border-white/10 p-4">
+            <p class="text-xs text-white/40 tracking-[0.3em] mb-2">控制倾向</p>
+            <p class="text-2xl font-headline">82</p>
+            <p class="text-xs text-white/50 mt-1">习惯用严密结构保障安全感。</p>
+          </div>
+          <div class="rounded-xl border border-white/10 p-4">
+            <p class="text-xs text-white/40 tracking-[0.3em] mb-2">情感操控</p>
+            <p class="text-2xl font-headline">76</p>
+            <p class="text-xs text-white/50 mt-1">擅长读取并调动他人情绪。</p>
+          </div>
+          <div class="rounded-xl border border-white/10 p-4">
+            <p class="text-xs text-white/40 tracking-[0.3em] mb-2">利益优先</p>
+            <p class="text-2xl font-headline">68</p>
+            <p class="text-xs text-white/50 mt-1">拆解互动的成本与回报。</p>
+          </div>
+          <div class="rounded-xl border border-white/10 p-4">
+            <p class="text-xs text-white/40 tracking-[0.3em] mb-2">冷感防御</p>
+            <p class="text-2xl font-headline">71</p>
+            <p class="text-xs text-white/50 mt-1">能迅速抽离情绪保持理性。</p>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-white/10 p-5 space-y-2">
+          <p class="text-xs tracking-[0.35em] text-white/40">人格原型</p>
+          <h3 class="text-xl font-headline">高防御型控制者</h3>
+          <p class="text-sm text-white/70">你擅长掌控关键变量，用规则来抵御风险。在复杂场景里，总能快速收回主动权。</p>
+          <p class="text-sm text-[#ffb2b8]">成长建议：在低风险场景练习授予空间，降低长期高压模式的能量消耗。</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 p-5 space-y-3 text-sm">
+          <p class="text-xs tracking-[0.35em] text-white/40">亮点 & 风险</p>
+          <ul class="list-disc list-inside text-white/70">
+            <li>亮点：混乱场景中的天然指挥官；懂得用理性切割情绪干扰。</li>
+            <li>风险：频繁试探会耗损信任；高压策略可能压缩亲密空间。</li>
+          </ul>
+        </div>
+        <div class="flex gap-3">
+          <button class="flex-1 h-12 rounded-xl bg-gradient-to-r from-[#ffb2b8] to-[#e74461] text-black tracking-[0.3em] text-xs uppercase">保存报告</button>
+          <button class="flex-1 h-12 rounded-xl border border-white/15 text-xs tracking-[0.3em] uppercase">查看更多测试</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center text-xs text-white/40 py-8 border-t border-white/5">
+      © 2026 LATENT DARK INDEX · 本页面为静态预览，仅供审阅视觉与文案，不构成交互成品。
+    </footer>
+  </body>
+</html>

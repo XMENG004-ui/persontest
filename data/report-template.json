@@ -1,0 +1,42 @@
+{
+  "header": {
+    "title": "潜在黑暗人格指数",
+    "subtitle": "Latent Dark Index",
+    "scoreLabel": "总指数",
+    "gradeLabels": {
+      "low": "阴影尚浅",
+      "mid": "自我保护型",
+      "high": "策略操盘者",
+      "very_high": "暗黑领主型"
+    },
+    "cta": ["保存报告", "分享指数"],
+    "disclaimer": "本报告仅供娱乐与自我探索参考，不构成专业心理诊断或医疗建议。"
+  },
+  "sections": [
+    {
+      "key": "radar",
+      "title": "六维指数雷达",
+      "description": "展示六个心理策略维度的相对强度，帮助你快速定位优势与风险。"
+    },
+    {
+      "key": "dimensionCards",
+      "title": "维度解读",
+      "description": "针对每个维度输出得分、级别、表现摘要与提醒。"
+    },
+    {
+      "key": "archetype",
+      "title": "人格原型",
+      "description": "基于得分组合匹配的角色画像，指出你的主导策略与成长建议。"
+    },
+    {
+      "key": "highlights",
+      "title": "你的隐藏优势",
+      "description": "从高分维度提炼出的可用资源与独特能力。"
+    },
+    {
+      "key": "cautions",
+      "title": "潜在风险",
+      "description": "提醒你在高压或亲密场景中容易触发的盲点。"
+    }
+  ]
+}

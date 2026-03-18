@@ -1,0 +1,44 @@
+[
+  {
+    "name": "高防御型控制者",
+    "condition": "control>=70 && defense>=65 && benefit>=60",
+    "tagline": "以精密布局换取安全感",
+    "description": "你擅长通过信息与规则掌控局势，把情绪噪音隔离在外。",
+    "growth": "尝试在低风险情境交出部分控制，减轻长期高压带来的消耗。"
+  },
+  {
+    "name": "情绪策略家",
+    "condition": "emotional>=70 && benefit>=60",
+    "tagline": "善用情感杠杆影响结果",
+    "description": "你读懂他人节奏，并精心调度氛围以达成目标。",
+    "growth": "在重要关系中保留真诚窗口，否则信任会被快速透支。"
+  },
+  {
+    "name": "利益演算家",
+    "condition": "benefit>=70 && control>=60",
+    "tagline": "把互动拆成成本与收益",
+    "description": "你擅长算计投入产出，用资源配置保持领先。",
+    "growth": "试着为“无回报互动”留出时间，缓和关系中的交易感。"
+  },
+  {
+    "name": "冷感守卫者",
+    "condition": "defense>=70 && aggression<60",
+    "tagline": "用抽离维护脆弱核心",
+    "description": "你能在瞬间切换到理性模式，以旁观视角处理风险。",
+    "growth": "在安全关系里放慢防御速度，学习用语言而非沉默表达脆弱。"
+  },
+  {
+    "name": "占有型联结者",
+    "condition": "possessive>=70 && emotional>=60",
+    "tagline": "以专属仪式巩固关系",
+    "description": "你需要明确的关注与回应，常以测试验证对方是否站队。",
+    "growth": "把规则转化为协商，减少隐形考题带来的消耗。"
+  },
+  {
+    "name": "边界统御者",
+    "condition": "aggression>=70",
+    "tagline": "以高压界限换安全",
+    "description": "你对越界零容忍，擅用强硬姿态压制风险。",
+    "growth": "把攻防逻辑写成清晰约定，避免关系被情绪化战术拖垮。"
+  }
+]
